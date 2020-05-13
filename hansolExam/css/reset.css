@@ -1,0 +1,87 @@
+a, abbr, address, article, aside, audio, b, big, blockquote, body, canvas, caption, cite, code, dd, del, details, dfn, dialog, div, dl, dt, em, embed,
+fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hr, html, i, iframe, img, ins, kbd, label, legend, li, mark, menu, meter, nav,
+object, ol, output, p, pre, progress, q, rp, rt, ruby, s, samp, section, small, span, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, tt, u, ul, var, video, textarea, input {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font-family: inherit;
+    vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, footer, header, menu, nav, section, main {
+    display: block;
+}
+button{
+    font-family: inherit;
+}
+h1, h2, h3, h4, h5, h6,
+strong, b, dt, th {
+    font-weight: 700;
+}
+em, address {
+    font-weight: 400;
+    font-style: normal;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+iframe {
+    max-width: 100%;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+	word-wrap: break-word;
+    table-layout: fixed;
+}
+ul, ol, li {
+    list-style: none;
+}
+textarea {
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+}
+button {
+    cursor: pointer;
+}
+html {
+    overflow-x: hidden;
+}
+html,body {
+    height: 100%;
+    /*overflow: auto;*/
+}
+body {
+    font-size: 13px;
+    line-height: 1.4;
+    font-family: 'Spoqa Han Sans', sans-serif;
+    color: #505050;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+input{
+    font-family: inherit;
+}
+.clearfix {
+    zoom: 1;
+}
+.clearfix:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+.only-sr {
+    overflow: hidden !important;
+    position: absolute !important;
+	width: 1px;
+	height: 1px;
+	padding: 0;
+	margin: -1px;
+	clip: rect(0,0,0,0);
+	border: 0;
+}

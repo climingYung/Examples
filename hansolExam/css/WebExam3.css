@@ -1,0 +1,250 @@
+.header{
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    z-index: 10;
+}
+
+.logo_img{
+    display: block;
+    position: absolute;
+    top: 20px;
+    height: 32px;
+    width: 120px;
+}
+.header > .header_wrap{
+    width: 1180px;
+    margin: 0 auto;
+}
+.header-wrap > nav{
+    display: block;
+    height: 80px;
+}
+.nav > ul{
+    width: 80%;
+    height: 80px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    float: right;
+}
+.nav > ul > li{
+    align-items: center;
+    font-size: 18px;
+    line-height: 2.3rem;
+    display: inline-block;
+}
+
+.main{
+    width: 100%;
+    padding-top: 80px;
+}
+.slider-img{
+    position: relative;
+    width: 100%;    
+    height: 820px;
+    background-image: url(../img/main1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+.slider-text{
+    width: 594px;
+    height: 74px;
+    top: 383px;
+    left: 100px;
+    z-index: 10;
+    position: absolute;
+    display: block;
+    background: url(../img/img_main_visual_txt_red_1180.png) no-repeat;
+    background-position: center left;
+}
+
+.main_wrap{
+    max-width: 1180px;
+    margin: 0 auto;
+}
+.product_wrap{
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    top: -135px;
+    background: #fff;
+    border-radius: 65px 0 65px 0;
+    padding: 30px 30px 30px 20px;
+    box-sizing: border-box;
+    box-shadow: 0 15px 20px 0 rgba(113, 94, 97, 0.15);
+    z-index: 10;
+}
+
+.product_txt{
+    display: inline-block;
+    margin: 40px 0 0 40px;
+    width: 20%;
+}
+
+.product_txt > h2{
+    font-size: 40px;
+}
+
+.product_wrap > ul{
+    float: right;
+    width: 75%;
+    display: flex;
+}
+
+.product_wrap > ul> li{
+    width: 206px;
+}
+
+.product_detail{
+    display: flex;
+    margin-top: -100px;
+    width: 100%;
+    height: 570px;
+}
+
+
+.product_img{
+    width: 55%;
+    height: 100%
+}
+
+.product_intro{
+    width: 45%;
+    height: 100%;
+    background-color: #fff8f5;
+}
+
+.intro-wrap{
+    float: left;
+    margin-top: 88px;
+    margin-left: 39px;
+}
+
+.product_logo{
+    width: 214px;
+    color: #b51946;
+    font-size:20px;
+}
+.product_title{
+    font-size: 30px;
+    margin: 40px 0;
+    color: #242424;
+}
+
+.product_more{
+    font-weight: bold;
+    color: #2b292d; ;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+.product_info{
+    padding: 30px 0;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+}
+
+.product_info > li{
+    width: 33%;
+    text-align: center;
+    margin-right: 50px;
+}
+
+
+.product_info > li > p{
+    margin-bottom: 26px;
+    margin-top: 11px;
+}
+
+.info_img{
+    width: 42px;
+    height: 59px;
+    margin: 0 auto;
+    background: url(../img/product_weight.png);
+    background-repeat: no-repeat;
+}
+
+.info_num{
+    box-sizing: border-box;
+    margin: 0 auto;
+    width: 105px;
+    height: 54px;
+    font-size: 18px;
+    padding: 10px;
+    box-sizing: border-box;
+    font-weight: 900;
+    border-radius: 3px;
+    background-color: #ececec;
+    text-align: center;
+}
+
+.sns_area{
+    width: 100%;
+    margin: 30px 0px;
+}
+
+.sns_intro_top_img{
+    display: inline-block;
+    margin-bottom: 12px;
+    padding: 14px 30px;
+    border-radius: 12px;
+    background-color: #d20b2f;
+    text-align: center;
+}
+
+.sns_intro_top_img > em{
+    font-size: 36px;
+    color: #fff;
+}
+
+.intro_top_title{
+    margin: 0 auto;
+    display: block;
+    width: 90px;
+    height: 21px;
+    background-image: url(../img/logo_white.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.sns_intro_area{
+    width: 100%;
+}
+
+.you_thumnail {
+    width: 50%;
+    float: left;
+    margin-top: 10px;
+  position: relative;
+  display: inline-block;
+}
+
+.you_thumnail  > .you_gnb{
+    display: block;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 14px;
+    right: 14px;
+    background-image: url(../img/icon_gnb_youtube.png);
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+.sns_intro_area > ul{
+    width: 50%;
+    float: right;
+}
+.sns_intro_area > ul >li{
+    width: 220px;
+    margin: 10px 0 0 20px;
+    float: left;
+}
+
